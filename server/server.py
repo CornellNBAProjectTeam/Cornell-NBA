@@ -1,5 +1,14 @@
 from flask import Flask
+import os
+
 app = Flask(__name__)
+
+# Environment Variables
+ACCOUNT_USER = os.environ.get('MONGOLAB_USERNAME')
+ACCOUNT_PASS = os.environ.get('MONGOLAB_PASS')
+DB_NAME = os.environ.get('MONGO_DB_NAME')
+DB_USER = os.environ.get('MONGO_DB_USER')
+DB_PASS = os.environ.get('MONGO_DB_PASS')
 
 @app.route("/")
 def hello():
