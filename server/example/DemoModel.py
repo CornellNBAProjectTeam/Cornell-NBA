@@ -113,7 +113,7 @@ def trainScoreDifference(years = ['2008','2009','2010','2011','2012','2013','201
 		year_errorSum += TestScores
 		print('Year:' + year + ' Training Error: %.4f' % TrainScores)
 		print('Year:' + year + ' Testing Error: %.4f' % TestScores)
-	print('Average Testing Error: %.4f' % (year_errorSum/len(years)))
+		print('Average Testing Error: %.4f' % (year_errorSum/len(years)))
 		
 def scorerPTS(estimator, X, y):
 	#Return's 1 (i.e. incorrect classification) when the ScoreDifference(y) has a different sign than the Predicted Score Difference
