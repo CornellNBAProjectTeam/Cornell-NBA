@@ -1,0 +1,110 @@
+/* Custom CSS */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Background pattern from subtlepatterns.com */
+body {
+	background-image: url(../img/back.png);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Abel', sans-serif;
+}
+
+.navbar-fixed-top {
+	background-color: white;
+}
+
+.container {
+	margin: 0 4%;
+}
+
+.logo {
+	line-height:50px;
+}
+
+.logo a{
+	color:black;
+}
+
+.logo img {
+	float:left;
+	vertical-align: middle;
+}
+
+.logo h3 {
+	float:left;
+	margin-top: 13px;
+}
+
+.navbar-links a {
+	float:right;
+	padding-top: 0px;
+	color:black;
+	margin-left:5%;
+}
+
+.logo a:hover {
+	color: 	SteelBlue;
+}
+
+.method {
+	padding-bottom: 20px;
+}
+
+.content {
+	margin: 5% 7%;
+	background-color: white;
+	padding: 5px 15px;
+	overflow: auto;	
+}
+
+.content h3 {
+	margin: 5px 0px;
+}
+.img-circle {
+  margin-top:18px;
+  height:100px;
+  width:100px;
+}
+
+.img-circle:hover {
+  border: solid 3px #CCC;
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.text-center {
+	padding-bottom: 15px;
+}
+
+.game-module {
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 5px;
+	width: 49%;
+	padding: 0px;
+}
+
+.top-bar {
+	height: 40px;
+	background-color: WhiteSmoke;
+}
+
+.top-bar h4 {
+	margin: 0px;
+	padding: 10px 15px;
+}
+
+#time {
+	float:left;
+	display: inline-block;
+}
+
+#location {
+	float:right;
+	display: inline-block;
+}

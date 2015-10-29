@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cornell Data Science - NBA Projections</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!--Abel Font from Google-->
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="logo">
+        	<a href="index.php"><img src="./img/cds-logo.png" height="50px" ><h3>&nbsp;Cornell Data Science - NBA Win/Loss Predictor</h3></a>
+        	<div class="navbar-links">
+            <a href="./pages/team.html"><h3>Team</h3></a>
+        		<a href="./pages/about.html"><h3>About</h3></a>
+        	</div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+      <h3><div id="date"></div>
+    	Today's Games: <div id="date"></div></h3>
+      <div class="col-sm-6 game-module">
+        <div class="top-bar">
+          <h4 id="time" style="color:red">LIVE</h4>
+          <h4 id="location">London, UK</h4>
+        </div>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Golden State Warriors (10-4)</b></h4>
+          <img src="./img/gsw.png" height="100px">
+          <h4>Offensive Rating: 1</h4>
+          <h4>Defensive Rating: 5</h4>
+          <h4>Previous 10 Games: 6-4</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Cleveland Cavaliers (12-2)</b></h4>
+          <img src="./img/cle.png" height="100px">
+          <h4>Offensive Rating: 3</h4>
+          <h4>Defensive Rating: 2</h4>
+          <h4>Previous 10 Games: 8-2</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Golden State Warriors</b></h4>
+          <h5>(Predicted Point Differential: 6)</h5>
+        </div>
+      </div>
+
+      <div class="col-sm-6 game-module">
+        <div class="top-bar">
+          <h4 id="time">7:30pm</h4>
+          <h4 id="location">Brooklyn, NY</h4>
+        </div>
+        <div class="col-sm-6 text-center away">
+          <h4><b>New York Knicks (7-6)</b></h4>
+          <img src="./img/nyk.png" height="100px">
+          <h4>Offensive Rating: 12</h4>
+          <h4>Defensive Rating: 26</h4>
+          <h4>Previous 10 Games: 6-4</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Brooklyn Nets (12-2)</b></h4>
+          <img src="./img/bkn.png" height="100px">
+          <h4>Offensive Rating: 5</h4>
+          <h4>Defensive Rating: 15</h4>
+          <h4>Previous 10 Games: 8-2</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: New York Knicks</b></h4>
+          <h5>(Predicted Point Differential: 15)</h5>
+        </div>
+      </div>
+
+      <div class="col-sm-6 game-module">
+        <div class="top-bar">
+          <h4 id="time">7:30pm</h4>
+          <h4 id="location">Charlotte, NC</h4>
+        </div>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Dallas Mavericks(10-4)</b></h4>
+          <img src="./img/dal.png" height="100px">
+          <h4>Offensive Rating: 7</h4>
+          <h4>Defensive Rating: 25</h4>
+          <h4>Previous 10 Games: 6-4</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Charlotte Hornets (12-2)</b></h4>
+          <img src="./img/cha.png" height="100px">
+          <h4>Offensive Rating: 12</h4>
+          <h4>Defensive Rating: 18</h4>
+          <h4>Previous 10 Games: 8-2</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Dallas Mavericks</b></h4>
+          <h5>(Predicted Point Differential: 7)</h5>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 game-module">
+        <div class="top-bar">
+          <h4 id="time">10:30pm</h4>
+          <h4 id="location">San Antonio, TX</h4>
+        </div>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Portland Trailblazers (10-4)</b></h4>
+          <img src="./img/por.png" height="100px">
+          <h4>Offensive Rating: 21</h4>
+          <h4>Defensive Rating: 19</h4>
+          <h4>Previous 10 Games: 6-4</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>San Antonia Spurs (12-2)</b></h4>
+          <img src="./img/sa.png" height="100px">
+          <h4>Offensive Rating: 7</h4>
+          <h4>Defensive Rating: 1</h4>
+          <h4>Previous 10 Games: 8-2</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: San Antonio Spurs</b></h4>
+          <h5>(Predicted Point Differential: 21)</h5>
+        </div>
+      </div>
+
+      <div class="col-sm-6 game-module">
+        <div class="top-bar">
+          <h4 id="time">10:30pm</h4>
+          <h4 id="location">Los Angeles, CA</h4>
+        </div>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Los Angeles Lakers (10-4)</b></h4>
+          <img src="./img/lal.png" height="100px">
+          <h4>Offensive Rating: 9</h4>
+          <h4>Defensive Rating: 19</h4>
+          <h4>Previous 10 Games: 6-4</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Los Angeles Clippers (12-2)</b></h4>
+          <img src="./img/lac.png" height="100px">
+          <h4>Offensive Rating: 2</h4>
+          <h4>Defensive Rating: 11</h4>
+          <h4>Previous 10 Games: 8-2</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Los Angeles Clippers</b></h4>
+          <h5>(Predicted Point Differential: 11)</h5>
+        </div>
+      </div>
+
+      <div class="col-sm-6 game-module">
+        <div class="top-bar">
+          <h4 id="time">10:30pm</h4>
+          <h4 id="location">Oklahoma City, OK</h4>
+        </div>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Utah Jazz (10-4)</b></h4>
+          <img src="./img/uta.png" height="100px">
+          <h4>Offensive Rating: 22</h4>
+          <h4>Defensive Rating: 25</h4>
+          <h4>Previous 10 Games: 6-4</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Oklahoma City Thunder (12-2)</b></h4>
+          <img src="./img/okc.png" height="100px">
+          <h4>Offensive Rating: 4</h4>
+          <h4>Defensive Rating: 5</h4>
+          <h4>Previous 10 Games: 8-2</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Utah Jazz</b></h4>
+          <h5>(Predicted Point Differential: 3)</h5>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <footer class="footer">
+      <div class="container">
+      	<div class="footer-contents">
+      		<h3>Brought to you by:</h3>
+        </div>
+      </div>
+    </footer>
+    -->
+    <script>
+      var monthNames = [
+        "January", "February", "March",
+        "April", "May", "June", "July",
+        "August", "September", "October",
+        "November", "December"
+      ];
+      
+      var date = new Date();
+      var day = date.getDate();
+      var monthIndex = date.getMonth();
+      var year = date.getFullYear();
+
+      document.getElementById("date").innerHTML = "Date: " + monthNames[monthIndex] + " " + day + ", " + year;
+    </script>
+</body>
+</html>
