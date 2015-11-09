@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cornell Data Science - NBA Projections</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!--Abel Font from Google-->
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="logo">
+        	<a href="index.php"><img src="./img/cds-logo.png" height="50px" ><h3>&nbsp;Cornell Data Science - NBA Win/Loss Predictor</h3></a>
+        	<div class="navbar-links">
+            <a href="./pages/team.html"><h3>Team</h3></a>
+        		<a href="./pages/about.html"><h3>About</h3></a>
+        	</div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+      <h3><div id="date"></div>
+    	Today's Games: <div id="date"></div></h3>
+<div class="col-sm-6 game-module">
+        <h4 style="color:red">8:00pm</h4>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Chicago Bulls</b></h4>
+          <img src="./img/CHI.png" height="100px">
+          <h4>Offensive Rating: 101.1</h4>
+          <h4>Defensive Rating: 102.5</h4>
+          <h4>Game win rate: 0.6</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Oklahoma City Thunder</b></h4>
+          <img src="./img/OKC.png" height="100px">
+          <h4>Offensive Rating: 112.4</h4>
+          <h4>Defensive Rating: 105.3</h4>
+          <h4>Game win rate: 0.75</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Oklahoma City Thunder</b></h4>
+          <h5>(Predicted Point Differential: 4)</h5>
+        </div>
+      </div>
+
+<div class="col-sm-6 game-module">
+        <h4 style="color:red">8:00pm</h4>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Minnesota Timberwolves</b></h4>
+          <img src="./img/MIN.png" height="100px">
+          <h4>Offensive Rating: 103.7</h4>
+          <h4>Defensive Rating: 99.2</h4>
+          <h4>Game win rate: 0.67</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Miami Heat</b></h4>
+          <img src="./img/MIA.png" height="100px">
+          <h4>Offensive Rating: 105.6</h4>
+          <h4>Defensive Rating: 102.0</h4>
+          <h4>Game win rate: 0.5</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Miami Heat</b></h4>
+          <h5>(Predicted Point Differential: 4)</h5>
+        </div>
+      </div>
+
+<div class="col-sm-6 game-module">
+        <h4 style="color:red">8:30pm</h4>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Dallas Mavericks</b></h4>
+          <img src="./img/DAL.png" height="100px">
+          <h4>Offensive Rating: 99.7</h4>
+          <h4>Defensive Rating: 100.1</h4>
+          <h4>Game win rate: 0.5</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Charlotte Hornets</b></h4>
+          <img src="./img/CHA.png" height="100px">
+          <h4>Offensive Rating: 107.6</h4>
+          <h4>Defensive Rating: 105.2</h4>
+          <h4>Game win rate: 0.25</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Dallas Mavericks</b></h4>
+          <h5>(Predicted Point Differential: 1)</h5>
+        </div>
+      </div>
+
+<div class="col-sm-6 game-module">
+        <h4 style="color:red">9:00pm</h4>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Denver Nuggets</b></h4>
+          <img src="./img/DEN.png" height="100px">
+          <h4>Offensive Rating: 101.8</h4>
+          <h4>Defensive Rating: 104.5</h4>
+          <h4>Game win rate: 0.5</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Utah Jazz</b></h4>
+          <img src="./img/UTAH.png" height="100px">
+          <h4>Offensive Rating: 104.2</h4>
+          <h4>Defensive Rating: 88.0</h4>
+          <h4>Game win rate: 0.67</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Denver Nuggets</b></h4>
+          <h5>(Predicted Point Differential: 1)</h5>
+        </div>
+      </div>
+
+<div class="col-sm-6 game-module">
+        <h4 style="color:red">10:30pm</h4>
+        <div class="col-sm-6 text-center away">
+          <h4><b>Portland Trail Blazers</b></h4>
+          <img src="./img/POR.png" height="100px">
+          <h4>Offensive Rating: 99.0</h4>
+          <h4>Defensive Rating: 100.3</h4>
+          <h4>Game win rate: 0.5</h4>
+        </div>
+        <div class="col-sm-6 text-center home">
+          <h4><b>Memphis Grizzlies</b></h4>
+          <img src="./img/MEM.png" height="100px">
+          <h4>Offensive Rating: 97.4</h4>
+          <h4>Defensive Rating: 106.5</h4>
+          <h4>Game win rate: 0.6</h4>
+        </div>
+        <div class="text-center">
+          <h4><b>Predicted Winner: Portland Trail Blazers</b></h4>
+          <h5>(Predicted Point Differential: 2)</h5>
+        </div>
+      </div>
+
+
+    <script>
+      var monthNames = [
+        "January", "February", "March",
+        "April", "May", "June", "July",
+        "August", "September", "October",
+        "November", "December"
+      ];
+      
+      var date = new Date();
+      var day = date.getDate();
+      var monthIndex = date.getMonth();
+      var year = date.getFullYear();
+
+      document.getElementById("date").innerHTML = "Date: " + monthNames[monthIndex] + " " + day + ", " + year;
+    </script>
+</body>
+</html>
