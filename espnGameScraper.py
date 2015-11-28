@@ -212,45 +212,59 @@ def generateJSONData():
     gameInformation = predictGames()
     games = []
     print "Prediction request recieved!"
-    count = 1
-    for (HomeTeam,AwayTeam,PointDifferential,gameTime,team1OR,team1DR,winRate1,team2OR,team2DR,winRate2) in gameInformation:
-        game_data_hash = {}
-        if gameTime == "LIVE":
-            formatedDate = datetime.today()
-        else:
-            formatedDate = datetime.strptime(gameTime,"%Y-%m-%d %H:%M:%S")
-        if formatedDate.date() == datetime.today().date():
-            print "Adding game " + str(count)
-            val = str(formatedDate.minute)
-            if val == "0":
-                val += "0"
-            formatedDate = str(formatedDate.hour-12) + ":" + val + "pm"
-            if PointDifferential > 0.0:
-                Winner = HomeTeam
+    # Check last updated
+    datefile = open('lastupdated', 'r+')
+    lastupdated = datefile.read().split('-')
+    prev_year = int(lastupdated[0])
+    prev_month = int(lastupdated[1])
+    prev_day = int(lastupdated[2])
+    lastupdated_date = datetime.date(prev_year, prev_month, prev_day)
+    # Use cached data
+    if lastupdated_date == datetime.date.today():
+        cache = open('gamecache', 'r')
+        todays_results = cache.read()
+        cache.close()
+    # Update cache and use fresh data
+    else:
+        count = 1
+        for (HomeTeam,AwayTeam,PointDifferential,gameTime,team1OR,team1DR,winRate1,team2OR,team2DR,winRate2) in gameInformation:
+            game_data_hash = {}
+            if gameTime == "LIVE":
+                formatedDate = datetime.today()
             else:
-                Winner = AwayTeam
-                PointDifferential *= -1.0
-            live_flag = gameTime == "LIVE"
-            game_data_hash["homeTeam"] = HomeTeam
-            game_data_hash["awayTeam"] = AwayTeam
-            game_data_hash["winner"] = Winner
-            game_data_hash["date"] = "LIVE" if live_flag else formatedDate
-            # Flag for checking if date is live
-            game_data_hash["live"] = live_flag
-            game_data_hash["homeOR"] = team1OR
-            game_data_hash["homeDR"] = team2DR
-            game_data_hash["awayOR"] = team2OR
-            game_data_hash["awayDR"] = team2DR
-            game_data_hash["homeWinRate"] = winRate1
-            game_data_hash["awayWinRate"] = winRate2
-            game_data_hash["pointDifferential"] = PointDifferential[0]
-            games.append(game_data_hash)
-            count += 1
-    # Cache results
-    todays_results = json.dumps(games)
-    cache = open('gamecache', 'w')
-    cache.write(todays_results)
-    cache.close()
+                formatedDate = datetime.strptime(gameTime,"%Y-%m-%d %H:%M:%S")
+            if formatedDate.date() == datetime.today().date():
+                print "Adding game " + str(count)
+                val = str(formatedDate.minute)
+                if val == "0":
+                    val += "0"
+                formatedDate = str(formatedDate.hour-12) + ":" + val + "pm"
+                if PointDifferential > 0.0:
+                    Winner = HomeTeam
+                else:
+                    Winner = AwayTeam
+                    PointDifferential *= -1.0
+                live_flag = gameTime == "LIVE"
+                game_data_hash["homeTeam"] = HomeTeam
+                game_data_hash["awayTeam"] = AwayTeam
+                game_data_hash["winner"] = Winner
+                game_data_hash["date"] = "LIVE" if live_flag else formatedDate
+                # Flag for checking if date is live
+                game_data_hash["live"] = live_flag
+                game_data_hash["homeOR"] = team1OR
+                game_data_hash["homeDR"] = team2DR
+                game_data_hash["awayOR"] = team2OR
+                game_data_hash["awayDR"] = team2DR
+                game_data_hash["homeWinRate"] = winRate1
+                game_data_hash["awayWinRate"] = winRate2
+                game_data_hash["pointDifferential"] = PointDifferential[0]
+                games.append(game_data_hash)
+                count += 1
+        # Cache results
+        todays_results = json.dumps(games)
+        cache = open('gamecache', 'w')
+        cache.write(todays_results)
+        cache.close()
     return todays_results
     
 def mapInitialToTeamName(initial):
