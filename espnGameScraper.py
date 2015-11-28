@@ -31,10 +31,10 @@ def scrapeGames():
         #Check if game is not a past one
         header = game.find("thead").find("tr").findAll("th")[2].find("span").text
 
-        if header.strip() == "RESULT":
+        if header.strip().upper() == "RESULT":
             #This is a past game
             continue
-        elif header.strip() == "TIME":
+        elif header.strip().upper() == "TIME":
             dateCaption = tableObj.find("caption").text
             gamesBody = tableObj.find("tbody").findAll("tr")
             
