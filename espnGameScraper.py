@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import urllib2
 import pytz
 from datetime import datetime
+import datetime as datetime2
 import loadModelAndPredict
 import socket
 from selenium import webdriver
@@ -218,9 +219,9 @@ def generateJSONData():
     prev_year = int(lastupdated[0])
     prev_month = int(lastupdated[1])
     prev_day = int(lastupdated[2])
-    lastupdated_date = datetime.date(prev_year, prev_month, prev_day)
+    lastupdated_date = datetime2.date(prev_year, prev_month, prev_day)
     # Use cached data
-    if lastupdated_date == datetime.date.today():
+    if lastupdated_date == datetime2.date.today():
         cache = open('gamecache', 'r')
         todays_results = cache.read()
         cache.close()
@@ -265,7 +266,7 @@ def generateJSONData():
         todays_results = json.dumps(games)
         cache = open('gamecache', 'w')
         cache.write(todays_results)
-        lastupdated.write(str(datetime.date.today()))
+        lastupdated.write(str(datetime2.date.today()))
         cache.close()
         lastupdated.close()
     return todays_results
