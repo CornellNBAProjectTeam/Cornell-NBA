@@ -246,7 +246,12 @@ def generateJSONData():
             game_data_hash["pointDifferential"] = PointDifferential[0]
             games.append(game_data_hash)
             count += 1
-    return json.dumps(games)
+    # Cache results
+    todays_results = json.dumps(games)
+    cache = open('gamecache', 'w')
+    cache.write(todays_results)
+    cache.close()
+    return todays_results
     
 def mapInitialToTeamName(initial):
     initial = initial.lower()
