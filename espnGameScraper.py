@@ -224,6 +224,7 @@ def generateJSONData():
         cache = open('gamecache', 'r')
         todays_results = cache.read()
         cache.close()
+        lastupdated.close()
     # Update cache and use fresh data
     else:
         count = 1
@@ -264,7 +265,9 @@ def generateJSONData():
         todays_results = json.dumps(games)
         cache = open('gamecache', 'w')
         cache.write(todays_results)
+        lastupdated.write(str(datetime.date.today()))
         cache.close()
+        lastupdated.close()
     return todays_results
     
 def mapInitialToTeamName(initial):
