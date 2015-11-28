@@ -223,7 +223,7 @@ def generateJSONData():
     # Use cached data
     if lastupdated_date == datetime2.date.today():
         cache = open('gamecache', 'r')
-        todays_results = "lol"
+        todays_results = cache.read()
         cache.close()
         datefile.close()
     # Update cache and use fresh data
