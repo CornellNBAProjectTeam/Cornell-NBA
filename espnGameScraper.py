@@ -215,17 +215,17 @@ def generateJSONData():
     print "Prediction request recieved!"
     # Check last updated
     datefile = open('lastupdated', 'r+')
-    lastupdated = datefile.read().split('-')
-    prev_year = int(lastupdated[0])
-    prev_month = int(lastupdated[1])
-    prev_day = int(lastupdated[2])
+    lastupdated_list = datefile.read().split('-')
+    prev_year = int(lastupdated_list[0])
+    prev_month = int(lastupdated_list[1])
+    prev_day = int(lastupdated_list[2])
     lastupdated_date = datetime2.date(prev_year, prev_month, prev_day)
     # Use cached data
     if lastupdated_date == datetime2.date.today():
         cache = open('gamecache', 'r')
         todays_results = cache.read()
         cache.close()
-        lastupdated.close()
+        datefile.close()
     # Update cache and use fresh data
     else:
         count = 1
@@ -266,9 +266,9 @@ def generateJSONData():
         todays_results = json.dumps(games)
         cache = open('gamecache', 'w')
         cache.write(todays_results)
-        lastupdated.write(str(datetime2.date.today()))
+        datefile.write(str(datetime2.date.today()))
         cache.close()
-        lastupdated.close()
+        datefile.close()
     return todays_results
     
 def mapInitialToTeamName(initial):
