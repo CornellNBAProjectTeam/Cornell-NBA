@@ -422,11 +422,14 @@ def grab_game_urls(teamInitial,year,driver):
     WinLoss = soup.findAll('pre',id='csv_teams_games')[0].text
     return listOfGames,opponentIDs,'\n'.join(WinLoss.split('\n')[1:])
     
+#This function updates our Current Team Stats CSV file. 
+#Recommended to run this first before making any predictions, since accuracy will improve.
+#However this runs very slowly. It'd be best to auto run this once a week at like 1 am.
 
 def updateCurrentTeamRollingCSV():
-    driver = webdriver.PhantomJS(executable_path='C:\\Users\\jd728\\Documents\\phantomjs-2.0.0-windows\\phantomjs-2.0.0-windows\\bin\\phantomjs.exe')
+    driver = webdriver.PhantomJS(executable_path='phantomjs.exe')
     ListOfTeams = grab_team_initials("2016")
-    main_csv = "C:\\Users\\jd728\\Documents\\LiveHostStuff\\currentTeamRolling2.CSV" 
+    main_csv = "currentTeamRolling2.CSV" 
     with open(main_csv,'w+') as f1:
         f1.write("teamInitial,win,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,TS%,eFG%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,ORtg,DRtg" + '\n')
         

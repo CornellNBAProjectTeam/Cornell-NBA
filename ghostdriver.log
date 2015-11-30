@@ -1,0 +1,1578 @@
+[INFO  - 2015-11-30T07:19:12.161Z] GhostDriver - Main - running on port 20854
+[INFO  - 2015-11-30T07:19:13.391Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2015-11-30T07:19:13.391Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.customHeaders:  - {}
+[INFO  - 2015-11-30T07:19:13.391Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-11-30T07:19:13.391Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a8618330-9732-11e5-9bb1-9f65f71a2bca
+[ERROR - 2015-11-30T07:19:43.962Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:19:43.963Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:19:47.771Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:19:47.772Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  Y (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:15)
+  i (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:14)
+  aa (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:9)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:491)
+  k (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:27)
+  startPageFold (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:1434)
+
+  :262 in error
+[ERROR - 2015-11-30T07:19:51.356Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:19:51.356Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:19:55.097Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:19:55.098Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:03.664Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:03.665Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:08.159Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:08.160Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:11.688Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:11.689Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:22.573Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:22.573Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:28.688Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:28.688Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  Y (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:15)
+  i (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:14)
+  aa (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:9)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253265/1066125/js/j-1253265-1066125.js:491)
+  k (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:27)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253265/1066125/js/j-1253265-1066125.js:1453)
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:41.744Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:41.744Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:43.554Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:20:43.554Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:11.121Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:11.122Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:14.952Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:14.952Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:17.710Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:17.710Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:23.797Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:23.797Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:28.269Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:28.269Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:32.487Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:32.487Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  Y (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:15)
+  i (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:14)
+  aa (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:9)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253262/1066202/js/j-1253262-1066202.js:491)
+  k (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:27)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253262/1066202/js/j-1253262-1066202.js:1453)
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:50.638Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:50.638Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:58.563Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:21:58.564Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:16.357Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:16.359Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:28.288Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:28.289Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:33.567Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:33.567Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:41.565Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:41.566Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:46.226Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:22:46.226Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:06.357Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:06.357Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:21.688Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:21.689Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:36.922Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:36.923Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:39.668Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:39.668Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:46.015Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:46.015Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:49.072Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:49.073Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:58.407Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:23:58.407Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:05.426Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:05.426Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:08.326Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:08.327Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[INFO  - 2015-11-30T07:24:12.089Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-11-30T07:24:14.567Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:14.567Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:20.141Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:20.141Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:42.830Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'q.HYPE_dtl_466[Ba]')
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:42.831Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  (anonymous function) (https://s0.2mdn.net/ads/richmedia/studio/pv2/39575995/20151104105706882/PAN_male_gifter_300x250_prospecting/PAN_male_gifter_300x250.hyperesources/HYPE-466.thin.min.js:101)
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:52.928Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:24:52.928Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:01.420Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:01.420Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:10.728Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:10.729Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:13.281Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:13.281Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:20.870Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:20.870Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:40.777Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:40.777Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:48.112Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:48.112Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:52.183Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:25:52.183Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:26:02.414Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:26:02.414Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:26:10.809Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:26:10.809Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:26:29.212Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:26:29.212Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:26:48.599Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:26:48.599Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:01.016Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:01.016Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:06.653Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:06.653Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:16.204Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:16.204Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:24.549Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:24.549Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:30.849Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:27:30.850Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  Y (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:15)
+  i (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:14)
+  aa (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:9)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:491)
+  k (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:27)
+  startPageFold (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:1434)
+
+  :262 in error
+[ERROR - 2015-11-30T07:28:13.695Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:28:13.696Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:28:31.806Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:28:31.806Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:09.247Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:09.247Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[INFO  - 2015-11-30T07:29:12.303Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-11-30T07:29:33.376Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:33.376Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:35.201Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:35.201Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:40.383Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:40.383Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:48.437Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:29:48.437Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:30:44.254Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:30:44.255Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:30:59.242Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:30:59.242Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:02.840Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:02.840Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:20.478Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:20.478Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:43.741Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:43.742Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:51.491Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: ReferenceError: Can't find variable: HTMLVideoElement
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:51.491Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  (anonymous function) (https://s0.2mdn.net/ads/richmedia/studio/pv2/39579903/20151029121224620/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=HpgfirOMdv&t=1:167)
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:57.869Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:31:57.869Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:32:06.147Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:32:06.147Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:32:33.894Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:32:33.894Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:33:27.842Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:33:27.843Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:33:30.951Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:33:30.951Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:33:37.931Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:33:37.931Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:33:57.327Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:33:57.327Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  Y (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:15)
+  i (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:14)
+  aa (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:9)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:491)
+  k (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:27)
+  startPageFold (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:1434)
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:04.289Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:04.289Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  Y (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:15)
+  i (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:14)
+  aa (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:9)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:491)
+  k (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:27)
+  startPageFold (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:1434)
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:06.450Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:06.450Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  Y (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:15)
+  i (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:14)
+  aa (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:9)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:491)
+  k (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:27)
+  startPageFold (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:1434)
+
+  :262 in error
+[INFO  - 2015-11-30T07:34:12.408Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-11-30T07:34:24.479Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:24.480Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:29.096Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:29.096Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:42.507Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:42.507Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:55.839Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:34:55.839Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:35:34.750Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:35:34.750Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:36:37.705Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:36:37.706Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:36:58.104Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:36:58.104Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:31.863Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:31.864Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:40.241Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:40.241Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:50.644Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:50.644Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:55.311Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:55.312Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:58.426Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:37:58.426Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:04.130Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:04.131Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:19.838Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:19.838Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:34.325Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:34.325Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:44.045Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:44.045Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:52.828Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:38:52.829Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[INFO  - 2015-11-30T07:39:12.371Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-11-30T07:39:18.809Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:39:18.809Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:39:25.139Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:39:25.139Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:39:54.511Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:39:54.512Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  Y (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:15)
+  i (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:14)
+  aa (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:9)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:491)
+  k (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.4.0.js:27)
+  startPageFold (https://secure.flashtalking.com/xre/132/1328064/1127229/js/j-1328064-1127229.js:1434)
+
+  :262 in error
+[ERROR - 2015-11-30T07:40:24.702Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:40:24.702Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:40:36.278Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:40:36.278Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:41:16.077Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:41:16.078Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:41:22.197Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:41:22.198Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:42:44.710Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:42:44.711Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:42:49.011Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:42:49.012Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:43:06.381Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:43:06.381Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:43:42.082Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:43:42.082Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:43:46.828Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:43:46.829Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:43:50.676Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:43:50.676Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:44:12.043Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:44:12.043Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[INFO  - 2015-11-30T07:44:12.579Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-11-30T07:44:20.062Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:44:20.062Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:44:49.388Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:44:49.388Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:44:53.192Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:44:53.192Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:45:00.824Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:45:00.824Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:45:25.850Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:45:25.851Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:45:56.618Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:45:56.618Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
+[ERROR - 2015-11-30T07:46:01.362Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.parent.document.body')
+
+  :262 in error
+[ERROR - 2015-11-30T07:46:01.362Z] Session [a8618330-9732-11e5-9bb1-9f65f71a2bca] - page.onError - stack:
+  X (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:16)
+  j (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:15)
+  $ (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:10)
+  b (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:2)
+  addEventListener (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:491)
+  l (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:6)
+  ftPageFold_v4 (https://cdn.flashtalking.com/pageFold/ftpagefold_v4.2.4.js:28)
+  startPageFold (https://secure.flashtalking.com/xre/125/1253179/1051292/js/j-1253179-1051292.js:1390)
+
+  :262 in error
