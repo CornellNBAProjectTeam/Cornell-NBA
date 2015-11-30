@@ -466,5 +466,3 @@ def updateCurrentTeamRollingCSV():
             f1.write(newRollingAvg + '\n')
                 
     driver.close()
-	
-print generateHTMLdata()
