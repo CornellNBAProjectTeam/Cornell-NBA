@@ -429,7 +429,7 @@ def grab_game_urls(teamInitial,year,driver):
 def updateCurrentTeamRollingCSV():
     driver = webdriver.PhantomJS(executable_path='phantomjs.exe')
     ListOfTeams = grab_team_initials("2016")
-    main_csv = "currentTeamRolling2.CSV" 
+    main_csv = "currentTeamRolling.csv" 
     with open(main_csv,'w+') as f1:
         f1.write("teamInitial,win,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,TS%,eFG%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,ORtg,DRtg" + '\n')
         
@@ -466,3 +466,5 @@ def updateCurrentTeamRollingCSV():
             f1.write(newRollingAvg + '\n')
                 
     driver.close()
+	
+print generateHTMLdata()
