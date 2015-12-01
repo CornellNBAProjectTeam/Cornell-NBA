@@ -9,6 +9,7 @@ def hello():
     return "Index page of Cornell NBA Prediction Project API."
 
 @app.route("/prediction")
+@crossdomain(origin='*')
 def prediction():
 	return generateJSONData()
 
