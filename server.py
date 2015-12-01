@@ -5,6 +5,9 @@ from functools import update_wrapper
 import os
 import json
 from espnGameScraper import generateJSONData
+from tornado.wsgi import WSGIContainer
+from tornado.httpserver import HTTPServer
+from tornado.ioloop import IOLoop
 
 app = Flask(__name__)
 
@@ -64,5 +67,6 @@ def update():
 	return json.dumps({"status": "ok"})
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port, debug=True)
+    http_server = HTTPServer(WSGIContainer(app))
+    http_server.listen(5000)
+    IOLoop.instance().start()
