@@ -88,14 +88,14 @@
                             </div>
                             <div class="col-sm-6 text-center away">
                               <h4><b>HomeTeam</b></h4>
-                              <img src="./img/${game["homeTeam"]}.png" height="100px">
+                              <img src="./img/${game["homeTeam"].toLowerCase()}.png" height="100px">
                               <h4>Offensive Rating: ${game["homeOR"].toFixed(1)}</h4>
                               <h4>Defensive Rating: ${game["homeDR"].toFixed(1)}</h4>
                               <h4>Win Rate: ${game["homeWinRate"].toFixed(2)}</h4>
                             </div>
                             <div class="col-sm-6 text-center home">
                               <h4><b>AwayTeam</b></h4>
-                              <img src="./img/${game["awayTeam"]}.png" height="100px">
+                              <img src="./img/${game["awayTeam"].toLowerCase()}.png" height="100px">
                               <h4>Offensive Rating: ${game["awayOR"].toFixed(1)}</h4>
                               <h4>Defensive Rating: ${game["awayDR"].toFixed(1)}</h4>
                               <h4>Win Rate: ${game["awayWinRate"].toFixed(2)}</h4>
