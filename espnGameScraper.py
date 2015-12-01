@@ -220,12 +220,12 @@ def generateJSONData():
     prev_month = int(lastupdated_list[1])
     prev_day = int(lastupdated_list[2])
     lastupdated_date = datetime2.date(prev_year, prev_month, prev_day)
+    datefile.close()
     # Use cached data
     if lastupdated_date == datetime2.date.today():
         cache = open('gamecache', 'r')
         todays_results = cache.read()
         cache.close()
-        datefile.close()
     # Update cache and use fresh data
     else:
         count = 1
@@ -265,6 +265,7 @@ def generateJSONData():
         # Cache results
         todays_results = json.dumps(games)
         cache = open('gamecache', 'w')
+        datefile = open('lastupdated', 'w')
         cache.write(todays_results)
         datefile.write(str(datetime2.date.today()))
         cache.close()
