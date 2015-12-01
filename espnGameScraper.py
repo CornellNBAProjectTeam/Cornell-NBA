@@ -210,8 +210,6 @@ def generateHTMLdata():
 
 def generateJSONData():
     #Tuples are in format (Winner,Loser,PointDifferential,gameTime)
-    gameInformation = predictGames()
-    games = []
     print "Prediction request recieved!"
     # Check last updated
     datefile = open('lastupdated', 'r+')
@@ -228,6 +226,8 @@ def generateJSONData():
         cache.close()
     # Update cache and use fresh data
     else:
+        gameInformation = predictGames()
+        games = []
         count = 1
         for (HomeTeam,AwayTeam,PointDifferential,gameTime,team1OR,team1DR,winRate1,team2OR,team2DR,winRate2) in gameInformation:
             game_data_hash = {}
