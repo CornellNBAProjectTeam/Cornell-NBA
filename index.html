@@ -68,6 +68,7 @@
         $.ajax({
           url: 'http://107.170.6.250:5000/prediction',
           type: 'GET',
+          cache: true
         })
         .done(function(json) {
           // Kill loading gif
