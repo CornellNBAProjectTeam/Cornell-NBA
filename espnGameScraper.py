@@ -220,7 +220,7 @@ def generateJSONData():
     lastupdated_date = datetime2.date(prev_year, prev_month, prev_day)
     datefile.close()
     # Use cached data
-    if lastupdated_date == datetime2.date.today():
+    if lastupdated_date != datetime2.date.today():
         cache = open('gamecache', 'r')
         todays_results = cache.read()
         cache.close()
