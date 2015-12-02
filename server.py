@@ -64,7 +64,7 @@ def prediction():
 @app.route("/clearcache")
 def clearcache():
     datecache = open('lastupdated', "w")
-    datecache.write("")
+    datecache.write("01-01-01")
     datecache.close()
     return json.dumps({"status": "supdated"})
 
