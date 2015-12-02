@@ -61,10 +61,12 @@ def hello():
 def prediction():
 	return generateJSONData()
 
-@app.route("/update")
-def update():
-	# UPDATE SERVER DATA
-	return json.dumps({"status": "ok"})
+@app.route("/clearcache")
+def clearcache():
+    datecache = open('lastupdated', "w")
+    datecache.write("")
+    datecache.close()
+    return json.dumps({"status": "supdated"})
 
 if __name__ == "__main__":
     http_server = HTTPServer(WSGIContainer(app))
